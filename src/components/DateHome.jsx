@@ -1,10 +1,19 @@
 import React from 'react';
-import DateGenerator from '../utils/dateGenerator';
 
 function DateHome() {
+  const newDate = new Date();
+
+  const week = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+
+  const weekDay = week[newDate.getDay()];
+  const day = newDate.getDate();
+
   return (
     <div>
-        <p>{day}</p>
+      <div>
+        <h2>{day}</h2>
+        <h2>{weekDay}</h2>
+      </div>
     </div>
   );
 }
