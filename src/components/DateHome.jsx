@@ -1,4 +1,5 @@
 import React from 'react';
+import DateView from './DateView';
 
 function DateHome() {
   const newDate = new Date();
@@ -8,14 +9,7 @@ function DateHome() {
   const weekDay = week[newDate.getDay()];
   const day = newDate.getDate();
 
-  return (
-    <div>
-      <div>
-        <h2>{day}</h2>
-        <h2>{weekDay}</h2>
-      </div>
-    </div>
-  );
+  return <DateView day={day} weekDay={weekDay} />;
 }
 
 export default DateHome;
