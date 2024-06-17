@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function NextEvent() {
   return (
-    <div>
+    <div width="40%">
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <div>

@@ -10,7 +10,7 @@ function DateView(props) {
           <h3>{props.weekDay}</h3>
         </div>
       </div>
-      <h4 className="text-center">Próximos Eventos:</h4>
+      <h5 className="text-center">Próximos Eventos:</h5>
       <NextEvent />
     </div>
   );
