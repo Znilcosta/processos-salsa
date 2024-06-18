@@ -1,19 +1,19 @@
 const procedures = [
   {
-    imgFolder:
-      'https://static-00.iconduck.com/assets.00/folder-color-purple-icon-2048x1613-j8im97ws.png',
+    id: 1,
+    imgFolder: '',
     procedureTitle: 'Capacitação',
     urlFolders: '',
   },
   {
-    imgFolder:
-      'https://static-00.iconduck.com/assets.00/folder-color-purple-icon-2048x1613-j8im97ws.png',
+    id: 2,
+    imgFolder: '',
     procedureTitle: 'SHOP9',
     urlFolders: '',
   },
   {
-    imgFolder:
-      'https://static-00.iconduck.com/assets.00/folder-color-purple-icon-2048x1613-j8im97ws.png',
+    id: 3,
+    imgFolder: '',
     procedureTitle: 'Troca e Garantia',
     urlFolders: '',
   },

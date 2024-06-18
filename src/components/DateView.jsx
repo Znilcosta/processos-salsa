@@ -1,5 +1,4 @@
 import React from 'react';
-import NextEvent from './NextEvent';
 
 function DateView(props) {
   return (
@@ -11,7 +10,6 @@ function DateView(props) {
         </div>
       </div>
       <h5 className="text-center">Próximos Eventos:</h5>
-      <NextEvent />
     </div>
   );
 }
