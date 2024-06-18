@@ -6,6 +6,7 @@ import procedures from '../utils/procedures';
 function checkCard(procedures) {
   return (
     <Card
+      key={procedures.id}
       link={procedures.urlFolders}
       img={procedures.imgFolder}
       title={procedures.procedureTitle}
